@@ -16,7 +16,7 @@ int main()
    shapes.emplace_back( std::make_unique<Circle>( 4.1 ) );
 
    // Drawing all shapes
-   drawAllShapes( shapes );
+   //drawAllShapes( shapes );
 
    return EXIT_SUCCESS;
 }
